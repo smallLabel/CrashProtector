@@ -16,6 +16,8 @@
 		E9941305258B51C500C49780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9941304258B51C500C49780 /* main.m */; };
 		E994130E258B52DC00C49780 /* NSObject+MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E994130D258B52DC00C49780 /* NSObject+MethodSwizzle.m */; };
 		E9941312258B6A6400C49780 /* NSObject+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = E9941311258B6A6400C49780 /* NSObject+Selector.m */; };
+		E9A66B91258F436200F04F15 /* SLKVODelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A66B90258F436200F04F15 /* SLKVODelegate.m */; };
+		E9A66B9C258FAABB00F04F15 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A66B9B258FAABB00F04F15 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		E994130D258B52DC00C49780 /* NSObject+MethodSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzle.m"; sourceTree = "<group>"; };
 		E9941310258B6A6400C49780 /* NSObject+Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Selector.h"; sourceTree = "<group>"; };
 		E9941311258B6A6400C49780 /* NSObject+Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Selector.m"; sourceTree = "<group>"; };
+		E9A66B8F258F436200F04F15 /* SLKVODelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKVODelegate.h; sourceTree = "<group>"; };
+		E9A66B90258F436200F04F15 /* SLKVODelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKVODelegate.m; sourceTree = "<group>"; };
+		E9A66B9A258FAABB00F04F15 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E9A66B9B258FAABB00F04F15 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +79,14 @@
 				E99412F6258B51C400C49780 /* SceneDelegate.m */,
 				E99412F8258B51C400C49780 /* ViewController.h */,
 				E99412F9258B51C400C49780 /* ViewController.m */,
+				E9A66B9A258FAABB00F04F15 /* Person.h */,
+				E9A66B9B258FAABB00F04F15 /* Person.m */,
 				E994130C258B52DC00C49780 /* NSObject+MethodSwizzle.h */,
 				E994130D258B52DC00C49780 /* NSObject+MethodSwizzle.m */,
 				E9941310258B6A6400C49780 /* NSObject+Selector.h */,
 				E9941311258B6A6400C49780 /* NSObject+Selector.m */,
+				E9A66B8F258F436200F04F15 /* SLKVODelegate.h */,
+				E9A66B90258F436200F04F15 /* SLKVODelegate.m */,
 				E99412FB258B51C400C49780 /* Main.storyboard */,
 				E99412FE258B51C500C49780 /* Assets.xcassets */,
 				E9941300258B51C500C49780 /* LaunchScreen.storyboard */,
@@ -155,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A66B91258F436200F04F15 /* SLKVODelegate.m in Sources */,
 				E99412FA258B51C400C49780 /* ViewController.m in Sources */,
+				E9A66B9C258FAABB00F04F15 /* Person.m in Sources */,
 				E99412F4258B51C400C49780 /* AppDelegate.m in Sources */,
 				E994130E258B52DC00C49780 /* NSObject+MethodSwizzle.m in Sources */,
 				E9941305258B51C500C49780 /* main.m in Sources */,

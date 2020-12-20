@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DBC8B398-4AF6-4F60-82FD-3FB16F213FE5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E780BC5B-6325-4174-B1FB-3E3FC7E8477B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrashProject/NSObject+Selector.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "-sl_addObserver:forKeyPath:options:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E780BC5B-6325-4174-B1FB-3E3FC7E8477B - ad3b2c407ca690d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSObject(Selector) sl_addObserver:forKeyPath:options:context:]"
+                  moduleName = "CrashProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jh/Desktop/sourcetree/CrashProtector/CrashProject/NSObject+Selector.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "E780BC5B-6325-4174-B1FB-3E3FC7E8477B - 27936f159595973b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__64-[NSObject(Selector) sl_addObserver:forKeyPath:options:context:]_block_invoke"
+                  moduleName = "CrashProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jh/Desktop/sourcetree/CrashProtector/CrashProject/NSObject+Selector.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D433E72-670B-4A43-BA18-234CE6DFEB2B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrashProject/NSObject+Selector.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-sl_addObserver:forKeyPath:options:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
