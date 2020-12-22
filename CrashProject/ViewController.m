@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _xiaoming = [[Person alloc] init];
+    
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
